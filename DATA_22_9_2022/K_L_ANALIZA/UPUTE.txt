@@ -1,0 +1,11 @@
+K = prosti broj umanjen za 1 na mjestu L
+L = index na kojem se prvi puta neki prosti faktor javlja prvi puta javlja.
+
+tj., odgovara formulama: k = p - 1; p je prosti faktor, iz skupa cijelih brojeva
+			 l = index; prvi index na kojem se javlja faktor k, iz skupa prirodnih brojeva
+
+To je bitno zato što je moguće primjerice frekvenciju pojavljivanja faktora 97 zapisati kao: 
+
+--->  96n + 2  (pogledaj rastavu na proste faktore); zato što se 97 javlja za svaki index = 2,98,194...
+
+Datoteke s završetkom 10000 se najnovije | računale rastavu na proste faktore do 1 000 000.
