@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="light_gray">#535353</color>
+
+    <color name="crvena">#A91B0D</color>
+    <color name="neon_zelena">#39ff14</color>
+
+    <color name="naslov">#00B6A3</color>
+    <color name="naslov2">#9CFBFF </color>
+    <color name="tekst">#FFFFFF</color>
+    <color name="tekst_za_pisati">#C4BEF7 </color>
+    <color name="main_pozadina">#282D5A </color>
+    <color name="dugme">#FF018786</color>
+    <color name="play_pozadina">#363E7A   </color>
+    <color name="fragment_pozadina1">#0C6182  </color>
+    <color name="fragment_pozadina2">#12162C  </color>
+    <color name="dugme_sporedno">#3D9DC4</color>
+    <color name="dugme_sporedno_back">#C671D0</color>
+    <color name="tekst2">#CBF5C0</color>
+    <color name="gear">#AAAAAA </color>
+    <color name="tekst_u_sjeni">#555555 </color>
+    <color name="dugme2">#CBF5C0</color>
+    <color name="zamjena_tekst">#000000</color>
+</resources>

@@ -1,0 +1,109 @@
+<resources>
+    <string name="welcome">WELCOME </string>
+    <string name="infoTitle">DECLARATION &amp; CONTACT</string>
+    <string name="settingsTitle">APP SETTINGS</string>
+    <string name="app_name" translatable="false">Crypto Lookisha</string>
+    <string name="lowercase_Substitution_Cipher">Substitution Cipher</string>
+    <string name="dsk" translatable="false">dsk</string>
+    <string name="Copy">Copy to clipboard</string>
+    <string name="button">Button</string>
+    <string name="my_string" translatable="false">dugme</string>
+    <string name="tekst" translatable="false">Tekst</string>
+    <string name="PLAY">PLAY</string>
+    <string name="EXIT">EXIT</string>
+    <string name="SETTINGS">SETTINGS</string>
+    <string name="INFO">INFO</string>
+    <string name="DARK_MODE" translatable="false">Dark mode</string>
+    <string name="title_activity_fullscreen" translatable="false">FullscreenActivity</string>
+    <string name="dummy_button" translatable="false">Dummy Button</string>
+    <string name="dummy_content" translatable="false">DUMMY\nCONTENT</string>
+    <string name="title_activity_info" translatable="false">InfoActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_play" translatable="false">PlayActivity</string>
+    <string name="Caesar">Caesar Cipher</string>
+    <string name="Enigma" translatable="false">Enigma</string>
+    <string name="RSA" translatable="false">RSA</string>
+    <string name="To_Be_Added" translatable="false">...</string>
+    <string name="encrypt">-ENCRYPT-</string>
+    <string name="decrypt">-DECRYPT-</string>
+    <string name="BACK" translatable="false"><![CDATA[<]]></string>
+    <string name="Spinner" translatable="false">dropDownMenu</string>
+    <string name="KEY">Enter the key:</string>
+    <string name="UPDATE">Update</string>
+    <string name="MENU" translatable="false">OPTIONS</string>
+    <string name="DATA">System data:</string>
+    <string name="ABECEDA" translatable="false">a b c d e f g h i j k l m n o p q r s t u v w x y z</string>
+    <string name="METHOD">Method</string>
+    <string name="ENCRYPTION">Encryption</string>
+    <string name="CAESAR_E" translatable="false">Caesar Cipher - ENCRYPTION</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="ENIGMA" translatable="false">ENIGMA</string>
+    <string-array name="koncept1_opcije">
+        <item>Mode: Default</item>
+        <item>Mode: Lookisha</item>
+        <item>Mode: RANDOM</item>
+        <item>Coming soon</item>
+    </string-array>
+    <string name="title_activity_koncept4" translatable="false">Koncept4</string>
+    <string name="Vigenerecipher">VIGENÈRE CIPHER</string>
+    <string name="SubstitutionCipher">SUBSTITUTION CIPHER</string>
+    <string name="frequencyAnalysis">FREQUENCY ANALYSIS</string>
+    <string name="RSABF" translatable="false">RSA BRUTE FORCE</string>
+    <string name="RSA_full" translatable="false">RSA (Rivest–Shamir–Adleman)</string>
+    <string name="ENTER_p">Enter the first prime number (p):</string>
+    <string name="ENTER_q">Enter the second prime number (q):</string>
+    <string name="RSA_for_dec">NECESSARY FOR DECRYPTION</string>
+    <string name="RSA_for_enc">NECESSARY FOR ENCRYPTION</string>
+    <string name="ENTER_N">Enter the product of primes (N):</string>
+    <string name="RSA_for_both">NECESSARY FOR BOTH</string>
+    <string name="ENTER_e">Enter the exponent (e):</string>
+    <string name="custom_alphabet">Custom alphabet:</string>
+    <string name="nule">Enter "zeros" (make frequency analysis more difficult):</string>
+    <string name="nule_broj">Enter how many zeros you want to have in the ciphertext:</string>
+    <string name="simbolZaRijec">Enter the specific words you want to replace:</string>
+    <string name="simbolZaRijec2">(for example: to replace word "love" with "&amp;" type "love:&amp;")</string>
+
+    <string name="lowercase_Vigenerecipher">Vigenère Cipher</string>
+    <string name="ENTER_keyword">Enter a keyword(s) but don\'t leave any spaces:</string>
+    <string name="lowercase_frequencyAnalysis">Frequency Analysis</string>
+    <string name="symbol">SYMBOL</string>
+    <string name="symbol2">REPETITIONS</string>
+    <string name="symbol3">PERCENTAGE</string>
+    <string name="analyze">-ANALYZE-</string>
+    <string name="za_BF">Enter the product of two prime numbers (N):</string>
+    <string name="BF" translatable="false">-BRUTE FORCE-</string>
+    <string name="bf" translatable="false">RSA Brute Force</string>
+    <string name="BF_info">Brute forcing large number can take a while!!! If you enter prime number (or 1) result would be negative</string>
+    <string name="naslov" translatable="false">Crypto Lookisha</string> />
+    <string name="copyright" translatable="false">© 2023 Lookisha</string> />
+    <string name="kontakt" translatable="false">lookisha.main@gmail.com</string>
+    <string name="video" translatable="false">VIDEO</string>
+    <string name="font_size">Font size</string>
+    <string name="background">Backgrounds</string>
+    <string name="language">LANGUAGE</string>
+    <string name="CRO">Croatian</string>
+    <string name="ENG">English</string>
+    <string name="HELP" translatable="false">HELP</string>
+    <string name="o_aplikaciji">Author: Lookisha\n\nDemo version release date: 12th of January\n\nSources:\n\nContact: lookisha.main@gmail.com\n\nNOTE: the application uses its own implementation of different cryptographic concepts, therefore there may be differences in the original method</string>
+    <string name="promjeni_jezik">Change Language</string>
+
+    <string name="Metoda1">Caesar cipher, also known as Caesar\'s code is the simplest and most widely known encryption method.\n\nIt\'s a substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.\n\n\n RANK: E</string>
+    <string name="Metoda2">Enigma (machine) is a cipher (device) used during WW2. Enigma was considered so secure that it was used to encipher the most top-secret messages.\n\nIt\'s a complex encryption method that uses three rotors, the main feature of the Enigma.\n\n\n RANK: A </string>
+    <string name="Metoda3">RSA (Rivest–Shamir–Adleman) is a public-key cryptosystem that is widely used for secure data transmission.\n\nThe security of RSA relies on the practical difficulty of factoring the product of two large prime numbers\n\n\n RANK: S</string>
+    <string name="Metoda4">A substitution cipher is a method of encrypting in which units of plaintext are replaced with the ciphertext. It\'s easily breakable using frequency analysis.\n\nRANK: D</string>
+    <string name="Metoda5">The Vigenère cipher is a method of encrypting alphabetic text by using a series of interwoven Caesar ciphers, based on the letters of a keyword.\n\nThe cipher is easy to understand and implement, but it resisted all attempts to break it until 1863\n\nRANK: B</string>
+    <string name="Metoda5_dodatak">For example:\n\nKey:        ABCDABCDABCDABCDABCDABCDABCD\nPlaintext:  cryptoisshortforcryptography\nCiphertext: CSASTPKVSIQUTGQUCSASTPIUAQJB</string>
+    <string name="deMetoda1">In cryptanalysis, frequency analysis (also known as counting letters) is the study of the frequency of letters or groups of letters in a ciphertext.\n\nThe method is used as an aid to breaking classical ciphers.\n\n\nFor a successful analysis, it is necessary to find the distribution of letters in the observed language (check it on the Internet).</string>
+    <string name="deMetoda2">Classical brute force method to factorize public key N used in RSA encryption method. Don\'t expect the app to factor large numbers.</string>
+    <string name="deMetoda">Deciphering Method</string>
+    <string name="grafx">Key length / bits</string>
+    <string name="grafy">Time / relative</string>
+    <string name="grafNaslov">RSA decryption time by key length</string>
+</resources>

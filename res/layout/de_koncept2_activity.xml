@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Layout_MAIN"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/play_pozadina"
+    android:clickable="true"
+    android:focusable="true"
+    android:onClick="deInfo"
+    tools:context=".ActivityKraj.Koncept1"
+    tools:ignore="UsingOnClickInXml">
+
+    <TextView
+        android:id="@+id/display1"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="400dp"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="true"
+        android:gravity="start|top"
+        android:importantForAutofill="no"
+        android:scrollbars="vertical"
+        android:textColor="@color/tekst_za_pisati"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/button_ENCRYPT"
+        app:backgroundTint="@color/dugme_sporedno"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="508dp"
+        android:background="@drawable/dugme_pozadina2"
+        android:onClick="kriptiraj"
+        android:text="@string/BF"
+        android:textColor="@color/tekst"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="UsingOnClickInXml"
+        tools:text="@string/BF" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="number"
+        android:textColor="@color/tekst_za_pisati"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_ENCRYPT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/textView_TITLE"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/bf"
+        android:textColor="@color/naslov"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        tools:text="@string/bf" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        app:backgroundTint="@color/gear"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/todo"
+        android:onClick="info"
+        app:layout_constraintBottom_toTopOf="@+id/editText1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView_TITLE"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_menu_info_details"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/button_BACK"
+        app:backgroundTint="@color/dugme_sporedno"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/dugme_pozadina3"
+        android:onClick="back"
+        android:text="@string/BACK"
+        android:textColor="@color/tekst"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="UsingOnClickInXml"
+        tools:text="@string/BACK" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/LAYOUT_EDIT"
+        android:layout_width="393dp"
+        android:layout_height="400dp"
+        android:background="@color/fragment_pozadina1"
+        android:elevation="10dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/button_BACK2"
+            app:backgroundTint="@color/dugme_sporedno"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/dugme_pozadina3"
+            android:onClick="back"
+            android:text="@string/BACK"
+            android:textColor="@color/tekst"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.053"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.954"
+            tools:ignore="UsingOnClickInXml"
+            tools:text="@string/BACK" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/LAYOUT_INFO"
+        android:layout_width="393dp"
+        android:layout_height="500dp"
+        android:background="@color/fragment_pozadina2"
+        android:elevation="15dp"
+        android:onClick="info"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.223"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/button_BACK3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/dugme_pozadina3"
+            android:onClick="back"
+            android:text="@string/BACK"
+            android:textColor="@color/tekst"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/dugme_sporedno"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.053"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.954"
+            tools:ignore="UsingOnClickInXml"
+            tools:text="@string/BACK" />
+
+        <TextView
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="274dp"
+            android:layout_height="133dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:text="@string/deMetoda2"
+            android:textColor="@color/tekst"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.245"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:text="@string/deMetoda"
+            android:textColor="@color/naslov"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextMultiLine"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.556"
+            tools:text="@string/deMetoda" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="375dp"
+            android:layout_height="275dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/zarsametoda"
+            android:contentDescription="@string/todo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/grafNaslov"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grafx"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:rotationX="0"
+            android:rotationY="0"
+            android:text="@string/grafy"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/za_BF"
+        android:textColor="@color/tekst"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editText1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editText1" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="350dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/lato"
+        android:text="@string/BF_info"
+        android:textAlignment="center"
+        android:textColor="@color/crvena"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_ENCRYPT" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
